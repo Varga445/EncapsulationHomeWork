@@ -12,16 +12,14 @@ public class College {
     }
 
     private void addCoursesAndPrice(){
-        coursesAndPrice.put("Math",1000);
+        coursesAndPrice.put("MATH",1000);
         coursesAndPrice.put("ENGLISH",2000);
-        coursesAndPrice.put("Music",1000);
+        coursesAndPrice.put("MUSIC",1000);
     }
 
     public HashMap<String, Integer> getCoursesAndPrice() {
         return coursesAndPrice;
     }
 
-//    public void setCoursesAndPrice(HashMap<String, Integer> coursesAndPrice) {
-//        this.coursesAndPrice = coursesAndPrice;
-//    }
+
 }
