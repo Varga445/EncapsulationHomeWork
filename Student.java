@@ -65,7 +65,7 @@ public class Student {
             String english = "English";
             System.out.println("Enrolled: " + english);
         }
-        // metode care nu vreau sa apartina clasei public
+        
     }
 
 
